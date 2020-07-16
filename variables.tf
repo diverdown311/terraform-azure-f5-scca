@@ -7,6 +7,9 @@ variable region { default = "USGov Virginia" }
 variable deploymentType { default = "single_tier" }
 variable sshPublicKeyPath { default = "/mykey.pub"}
 
+# Certificate Settings
+variable cert_admin { default = "admin@example.com" }
+
 # NETWORK
 variable cidr { default = "10.90.0.0/16" }
 variable subnets {
